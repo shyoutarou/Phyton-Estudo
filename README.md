@@ -3,7 +3,7 @@
 Em 1982, na cidade de Amsterdã, capital da Holanda, Guido Van Hossum, um dos desenvolvedores da linguagem de programação ABC, trabalhava no CWI (Instituto de Pesquisa Nacional para Matemática e Ciência da Computação) em um sistema operacional distribuído chamado amoeba. Devido as grandes falhas deste sistema com a linguagem C, Guido resolve então criar uma linguagem que possa resolver tais problemas. Van Hossum Queria desenvolver uma tecnologia fácil e intuitiva pois, segundo ele, determinados softwares programados em C eram bastante complexos pelo fato de, possuírem uma codificação extensa e, apenas programadores experientes conseguiam entender alguns programas escritos em C. Após Criação da nova linguagem veio a parte da nomeação. Para esse fim o CWI possuía um padrão de nomeações, que era baseado em algum nome referente a Televisão. Logo o Holandês batizou a linguagem de Python devido a seu programa favorito, o Monty Python’s Flying Circus. Até então seu nome não tinha nenhuma relação com a serpente píton, porém, o primeiro livro de programação em Python foi produzido pela editora O’Reilly, e cada livro dessa editora, possui um animal em sua capa, e o animal para este livro foi a própria serpente píton. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/Pythonorigins.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonorigins.png" alt="Image" width="100%" />
 </p>
 
 
@@ -46,17 +46,17 @@ O Python trabalha de forma isolada, porém, com esta linguagem também é possí
 
 Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.   A linguagem foi projetada com a filosofia de enfatizar a importância do esforço do programador sobre o esforço computacional. Prioriza a legibilidade do código sobre a velocidade ou expressividade. Combina uma sintaxe concisa e clara com os recursos poderosos de sua biblioteca padrão e por módulos e frameworks desenvolvidos por terceiros. 
 
-| Linguagem | Tipagem | Conversões |  Obs. |
-|:----------|------|---------------------|  instalar |
-| Smalltalk | dinâmica |  forte |   |
-| Python  |  dinâmica | forte |   |
-| Ruby  |  dinâmica |  forte |   |
-| C (K&R)  | estática |  fraca |   |
-| C (ANSI)  | estática |  forte |   |
-| Java  |  estática |  forte |   |
-| C#  |  estática |  forte |  |
-| JavaScript  | dinâmica |  fraca |  Bugs sorrateiros |
-| PHP |  dinâmica |  fraca |  Bugs sorrateiros |
+|     Linguagem                       |     Tipagem                  |     Conversões                     |     Obs.                |
+|-------------------------------------|------------------------------|------------------------------------|-------------------------|
+|     Smalltalk                       |     dinâmica                 |     forte                          |                         |
+|     Python                          |     dinâmica                 |     forte                          |                         |
+|     Ruby                            |     dinâmica                 |     forte                          |                         |
+|     C (K&R)                         |     estática                 |     fraca                          |                         |
+|     C (ANSI)                        |     estática                 |     forte                          |                         |
+|     Java                            |     estática                 |     forte                          |                         |
+|     C#                              |     estática                 |     forte                          |                         |
+|     JavaScript                      |     dinâmica                 |     fraca                          |     Bugs sorrateiros    |
+|     PHP                             |     dinâmica                 |     fraca                          |     Bugs sorrateiros    |
 
 Devido às suas características, ela é principalmente utilizada para processamento de textos, dados científicos e criação de CGIs para páginas dinâmicas para a web. Foi considerada pelo público a 3ª linguagem "mais amada", de acordo com uma pesquisa conduzida pelo site Stack Overflow em 2018,[5] e está entre as 5 linguagens mais populares, de acordo com uma pesquisa conduzida pela RedMonk.[6]
 - Linguagem de alto nível, ou seja, possui sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.
@@ -242,7 +242,7 @@ O aprendizado de máquina é outro uso proeminente do Python que certamente ajud
 
 #### Desenvolvimento Web
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/flask.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/flask.png" alt="Image" width="300px" />
 </p>
 
 Uma coisa que o Python provou ser chocantemente talentoso é administrar o back-end de sites. Essa também é uma vantagem que o Python possui para muitas outras linguagens. O Python possui muitos pacotes incríveis para implantar APIs e até criar aplicativos da Web com todos os recursos.
@@ -791,8 +791,7 @@ O interpretador interativo do Python também pode ser utilizado como uma calcula
 
 ```
 
-|         |     Operadores de Comparação         |            |
-|-----------------|-----------------------|-------------------|
+### Operadores de Comparação
 |     Operador    |     Descricao         |     Exemplo       |
 |-----------------|-----------------------|-------------------|
 |     <           |     Menor que         |     a  <    10    |
@@ -802,7 +801,7 @@ O interpretador interativo do Python também pode ser utilizado como uma calcula
 |     ==          |     Igual             |     e == 1        |
 |     !=          |     Diferente         |     f != 16       |
 
-|         |     Operadores lógicos        |            |
+### Operadores lógicos
 |     Operador    |     Descricao    |     Exemplo             |
 |-----------------|------------------|-------------------------|
 |     Not         |     NÃO          |     Not a               |
@@ -3004,7 +3003,7 @@ Observe que com poucas linhas de código conseguimos reutilizar a classe Cliente
 
 Para resolver o problema do Banco Tatu, precisamos de outra classe, Conta, para representar uma conta do banco com seus clientes e seu saldo; salve-o com o nome contas.py:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/salvarcomo.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/salvarcomo.png" alt="Image" width="400px" />
 </p>
 
 
@@ -4271,7 +4270,7 @@ Toda vez que um programa Python precisa acessar um arquivo – seja para import�
 
 A função open() estabelece uma “conversa” entre o Python e o sistema operacional do computador (Windows, Mac, Linux). Melhor explicando: abrir um arquivo, significa pedir ao sistema operacional para encontrar o endereço de localização do arquivo no HD, pen drive, cartão SD, enfim, no dispositivo em que ele esteja armazenado. Ao encontrar o endereço do arquivo, o sistema operacional retornará uma coisa chamada file handle para o programa Python. O file handle não é a mesma coisa que conteúdo do arquivo, ou seja, ele não consiste nos dados de fato. Na verdade, ele é uma espécie de ferramenta que lhe permite “manejar” os dados do arquivo. 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/filehandle.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/filehandle.png" alt="Image" width="400px" />
 </p>
 
  
@@ -4465,7 +4464,7 @@ B - U+0042; R - U+0052; A - U+0041; S - U+0053; I - U+0049; L - U+004C
 O aplicativo Mapa de caracteres (charmap) do Windows pode ser utilizado para consulta à tabela Unicode. Para acessá-lo, basta ir para o Prompt de Comando e digitar charmap. Na Figura 14, o Mapa de caracteres informa o code point associado à letra Á (“A” maiúsculo com acento agudo).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/unicode.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/unicode.png" alt="Image" width="400px" />
 </p>
 
 
@@ -4684,7 +4683,7 @@ arquivo.close()
 
 Após a execução, o programa terá gerado um arquivo com seis linhas.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/seislinhas.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/seislinhas.png" alt="Image" width="400px" />
 </p>
 
  
@@ -4957,7 +4956,7 @@ conexao.close()
 
 A primeira coisa a fazer e informar que ualizaremos um banco SQLite. Depois do import, várias funções e objetos que acessam o banco de dados se tornam disponiveis ao seu programa. Foi criado o banco de dados em sqlite3.connect("agenda.db"). A conexao com o banco de dados se assemelha a manipulação de um arquivo, é a operação análoga a abrir um arquivo. O nome do banco de dados que estamos criando será gravado no arquivo agenda.db.
  <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/bdsqllite.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/bdsqllite.png" alt="Image" width="500px" />
 </p>
 
 A extensão .db é apenas uma convenção, mas é recomendado diferenciar o nome do arquivo de um arquivo normal, principalmente porque todos os seus dados serão guardados nesse arquivo. A grande vantagem de um banco de dados é que o registro de informações e toda a manutenção dos dados são feitos automaticamente para você com comandos SQL.
