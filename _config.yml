@@ -1,1 +1,4 @@
-theme: jekyll-theme-merlot
+title: Python
+description: Python Fundamentals
+github_username: https://github.com/shyoutarou
+theme: jekyll-theme-midnight
