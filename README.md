@@ -1,3 +1,195 @@
+
+
+
+- [O que é o Python?](#o-que-é-o-python)
+  - [Por que aprender Python?](#por-que-aprender-python)
+      - [Aplicabilidade](#aplicabilidade)
+      - [Facilidade de aprendizado](#facilidade-de-aprendizado)
+      - [Legibilidade:](#legibilidade)
+      - [Redigibilidade:](#redigibilidade)
+      - [Eficiência:](#eficiência)
+      - [Confiabilidade:](#confiabilidade)
+      - [Custo:](#custo)
+      - [Portabilidade:](#portabilidade)
+      - [Reusabilidade:](#reusabilidade)
+      - [Integração](#integração)
+      - [Gerenciamento de memória](#gerenciamento-de-memória)
+      - [Exceções](#exceções)
+      - [Concorrência](#concorrência)
+      - [Multiparadigma](#multiparadigma)
+      - [INTERFACES](#interfaces)
+  - [Por que NÃO aprender Python?](#por-que-não-aprender-python)
+    - [DATA DE VALIDADE DO PYTHON](#data-de-validade-do-python)
+    - [Até quando, Python, o "garotão" em scripts, será  a linguagem de programação do futuro?](#até-quando-python-o-garotão-em-scripts-será-a-linguagem-de-programação-do-futuro)
+      - [O que torna o Python popular agora](#o-que-torna-o-python-popular-agora)
+      - [É velho](#é-velho)
+      - [É fácil de aprender](#é-fácil-de-aprender)
+      - [É FOSS](#é-foss)
+      - [É versátil](#é-versátil)
+      - [Aprendizado de máquina (Machine Learning)](#aprendizado-de-máquina-machine-learning)
+      - [Desenvolvimento Web](#desenvolvimento-web)
+      - [Unix](#unix)
+    - [DESVANTAGENS DO PYTHON](#desvantagens-do-python)
+      - [Python exigirá o Python](#python-exigirá-o-python)
+      - [Velocidade - Python é lento.](#velocidade---python-é-lento)
+      - [Dependências](#dependências)
+      - [Escopo](#escopo)
+      - [Lambdas](#lambdas)
+      - [Espaços em branco](#espaços-em-branco)
+      - [Desenvolvimento Móvel](#desenvolvimento-móvel)
+      - [Erros de tempo de execução](#erros-de-tempo-de-execução)
+      - [Aprendizado de máquina](#aprendizado-de-máquina)
+      - [Outras línguas  - O que poderia substituir o Python no futuro - e quando](#outras-línguas---o-que-poderia-substituir-o-python-no-futuro---e-quando)
+      - [É possível avançar.](#é-possível-avançar)
+      - [Linguagens Funcionais](#linguagens-funcionais)
+    - [INTERPRETADOR DE PYTHON](#interpretador-de-python)
+  - [INSTALAÇÂO](#instalaçâo)
+    - [Command Line Interface (CLI)](#command-line-interface-cli)
+    - [Uso Interativo do Python](#uso-interativo-do-python)
+    - [PIP](#pip)
+  - [VARIÁVEIS E TIPOS DE DADOS](#variáveis-e-tipos-de-dados)
+  - [TIPAGEM DINÂMICA](#tipagem-dinâmica)
+    - [Função INPUT](#função-input)
+    - [Função PRINT](#função-print)
+    - [COPY e DEEPCOPY](#copy-e-deepcopy)
+  - [IDENTIFICADORES](#identificadores)
+  - [STRINGS](#strings)
+  - [ORD e CHR](#ord-e-chr)
+  - [NÚMEROS](#números)
+    - [Operadores de Comparação](#operadores-de-comparação)
+    - [Operadores lógicos](#operadores-lógicos)
+  - [DATA e HORA](#data-e-hora)
+    - [TICK](#tick)
+    - [TIMETUPLE](#timetuple)
+    - [Módulo time](#módulo-time)
+  - [Hora Formatada](#hora-formatada)
+    - [Módulo datetime](#módulo-datetime)
+    - [Módulo calendário](#módulo-calendário)
+    - [Módulo pytz](#módulo-pytz)
+    - [Módulo dateutil](#módulo-dateutil)
+  - [LISTAS - ARRAY](#listas---array)
+    - [Operações com listas](#operações-com-listas)
+    - [Concatenação ( + )](#concatenação---)
+    - [Repetição ( * )](#repetição---)
+    - [Fatiamento](#fatiamento)
+  - [TUPLAS](#tuplas)
+  - [DICIONÁRIOS](#dicionários)
+  - [CONJUNTOS](#conjuntos)
+    - [Contido e Contém](#contido-e-contém)
+    - [União](#união)
+    - [Interseção](#interseção)
+    - [Diferença](#diferença)
+    - [Diferença simétrica](#diferença-simétrica)
+    - [Pertinência](#pertinência)
+    - [Removendo elementos duplicados de uma sequência](#removendo-elementos-duplicados-de-uma-sequência)
+    - [Métodos para conjuntos](#métodos-para-conjuntos)
+  - [GERADORES.](#geradores)
+    - [Iteradores Python](#iteradores-python)
+  - [LIST COMPREHENSIONS](#list-comprehensions)
+    - [List Comprehensions com if](#list-comprehensions-com-if)
+    - [List Comprehensions com vários if’s](#list-comprehensions-com-vários-ifs)
+    - [List Comprehensions com if + else](#list-comprehensions-com-if--else)
+    - [Múltiplas List Comprehensions (aninhadas)](#múltiplas-list-comprehensions-aninhadas)
+  - [EXPRESSÕES GERADORAS](#expressões-geradoras)
+  - [LAMBDA](#lambda)
+  - [MAP()](#map)
+    - [Map com expressão Lambda](#map-com-expressão-lambda)
+    - [Map com função incorporada](#map-com-função-incorporada)
+  - [FILTER()](#filter)
+    - [Filtrar com Expressão Lambda](#filtrar-com-expressão-lambda)
+  - [REDUCE()](#reduce)
+    - [Zip](#zip)
+  - [RECURSÃO EM PYTHON](#recursão-em-python)
+  - [ASSERT](#assert)
+  - [ESTRUTURAS DE DECISÃO](#estruturas-de-decisão)
+    - [Continue](#continue)
+    - [Pass](#pass)
+  - [ESTRUTURAS DE REPETIÇÃO](#estruturas-de-repetição)
+    - [Laço while](#laço-while)
+    - [Laço for](#laço-for)
+  - [FUNÇÕES](#funções)
+    - [Parâmetros e argumentos](#parâmetros-e-argumentos)
+    - [Escopo das variáveis](#escopo-das-variáveis)
+    - [Retorno de valores](#retorno-de-valores)
+    - [Múltiplos Retornos](#múltiplos-retornos)
+    - [Valor padrão](#valor-padrão)
+  - [BIBLIOTECAS/MÓDULOS](#bibliotecasmódulos)
+    - [Módulo statistics](#módulo-statistics)
+    - [Módulo random](#módulo-random)
+    - [Módulo math](#módulo-math)
+    - [Módulo turtle](#módulo-turtle)
+    - [Urllib](#urllib)
+    - [Numpy](#numpy)
+    - [Matplotlib](#matplotlib)
+    - [PIL/Pillow](#pilpillow)
+  - [CLASSES  E OBJETOS](#classes-e-objetos)
+    - [Encapsulamento](#encapsulamento)
+  - [Polimorfismo](#polimorfismo)
+    - [class nome :](#class-nome-)
+    - [def ```__init__(self)```:](#def-__init__self)
+    - [self.atributo](#selfatributo)
+    - [objeto = classe()](#objeto--classe)
+    - [def método(self)](#def-métodoself)
+    - [objeto.métodos](#objetométodos)
+  - [Coletor de lixo](#coletor-de-lixo)
+  - [Herança](#herança)
+    - [Desenvolvendo uma classe para controlar listas](#desenvolvendo-uma-classe-para-controlar-listas)
+  - [Classes Abstratas Base (``` __nome__``` )](#classes-abstratas-base--__nome__-)
+  - [DECORADOR](#decorador)
+    - [@classmethod decorator](#classmethod-decorator)
+    - [@staticmethod decorator](#staticmethod-decorator)
+    - [Decoratores internos](#decoratores-internos)
+    - [Outro exemplo @staticmethod decorator](#outro-exemplo-staticmethod-decorator)
+    - [Outro exemplo @property decorator](#outro-exemplo-property-decorator)
+    - [Exemplo de uma agenda](#exemplo-de-uma-agenda)
+  - [CONCORRÊNCIA](#concorrência-1)
+    - [GIL (Global Interpreter Locker)](#gil-global-interpreter-locker)
+    - [Stackless Python](#stackless-python)
+  - [EXCEÇÕES](#exceções-1)
+    - [SyntaxError](#syntaxerror)
+    - [Indentation Error](#indentation-error)
+    - [KeyError](#keyerror)
+    - [NameError](#nameerror)
+    - [ValueError](#valueerror)
+    - [TypeError](#typeerror)
+    - [IndexError](#indexerror)
+    - [TabError](#taberror)
+    - [Criando Exceções](#criando-exceções)
+  - [ARQUIVOS TEXTO: FILE HANDLE](#arquivos-texto-file-handle)
+    - [Gravar linhas no arquivo](#gravar-linhas-no-arquivo)
+    - [Lendo de um arquivo](#lendo-de-um-arquivo)
+    - [File Iterator](#file-iterator)
+    - [Unicode](#unicode)
+    - [Encodings](#encodings)
+    - [Leitura de Arquivo Separado por Colunas – Tamanho Fixo.](#leitura-de-arquivo-separado-por-colunas--tamanho-fixo)
+    - [Leitura de Arquivo Separado por Colunas – Tamanho Variável.](#leitura-de-arquivo-separado-por-colunas--tamanho-variável)
+    - [Arquivos CSV](#arquivos-csv)
+    - [Módulo CSV](#módulo-csv)
+    - [Gravando Arquivos](#gravando-arquivos)
+    - [Lendo e gravando em um arquivo binário](#lendo-e-gravando-em-um-arquivo-binário)
+  - [DIRETÓRIOS](#diretórios)
+    - [Módulo OS](#módulo-os)
+    - [Função os.walk](#função-oswalk)
+    - [módulo SHUTIL](#módulo-shutil)
+    - [módulo GLOB](#módulo-glob)
+    - [Módulo path](#módulo-path)
+    - [help(os.path)](#helpospath)
+  - [BANCO DE DADOS](#banco-de-dados)
+    - [SQLite](#sqlite)
+    - [Consultando registros](#consultando-registros)
+    - [Atualizando registros](#atualizando-registros)
+    - [Apagando registros](#apagando-registros)
+    - [Simplificando o acesso sem cursores](#simplificando-o-acesso-sem-cursores)
+    - [Acessando os campos como em um dicionário](#acessando-os-campos-como-em-um-dicionário)
+    - [erando uma chave primária](#erando-uma-chave-primária)
+    - [Alterando a tabela](#alterando-a-tabela)
+    - [Agrupando dados](#agrupando-dados)
+    - [Trabalhando com datas](#trabalhando-com-datas)
+    - [Convertendo a agenda para utilizar um banco de dados](#convertendo-a-agenda-para-utilizar-um-banco-de-dados)
+
+
+
+
 # O que é o Python?
 
 Em 1982, na cidade de Amsterdã, capital da Holanda, Guido Van Hossum, um dos desenvolvedores da linguagem de programação ABC, trabalhava no CWI (Instituto de Pesquisa Nacional para Matemática e Ciência da Computação) em um sistema operacional distribuído chamado amoeba. Devido as grandes falhas deste sistema com a linguagem C, Guido resolve então criar uma linguagem que possa resolver tais problemas. Van Hossum Queria desenvolver uma tecnologia fácil e intuitiva pois, segundo ele, determinados softwares programados em C eram bastante complexos pelo fato de, possuírem uma codificação extensa e, apenas programadores experientes conseguiam entender alguns programas escritos em C. Após Criação da nova linguagem veio a parte da nomeação. Para esse fim o CWI possuía um padrão de nomeações, que era baseado em algum nome referente a Televisão. Logo o Holandês batizou a linguagem de Python devido a seu programa favorito, o Monty Python’s Flying Circus. Até então seu nome não tinha nenhuma relação com a serpente píton, porém, o primeiro livro de programação em Python foi produzido pela editora O’Reilly, e cada livro dessa editora, possui um animal em sua capa, e o animal para este livro foi a própria serpente píton. 
@@ -385,31 +577,31 @@ O instalador do Python no Windows inclui o IDLE, cujo nome é tanto uma homenage
 
 - Interpretadores: tradução é efetuada sempre que o programa executa. Ex.: Python, Pearl, Basic tradicional, Shell Script... 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/interpretadorhello.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/interpretahello.png" alt="Image" width="500px" />
 </p>
   
 - Compiladores: tradução é efetuada uma só vez; produz um programa código-máquina independente. Ex.: Fortran, C, C++, Visual Basic...
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/compilador.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/compilador.png" alt="Image" width="500px" />
 </p>
 
 ## INSTALAÇÂO
 ```https://www.python.org/```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonsite.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonsite.png" alt="Image" width="500px" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythoninstall.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythoninstall.png" alt="Image" width="500px" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonfeature.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonfeature.png" alt="Image" width="500px" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonadvoptions.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/pythonadvoptions.png" alt="Image" width="500px" />
 </p>
 
 ### Command Line Interface (CLI)
@@ -420,7 +612,7 @@ A interface de linha de comando (CLI) é um modo eficiente de interaçãoo ser h
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/interfacecli.png" alt="Image" width="100%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/Phyton-Estudo/master/.github/interfacecli.png" alt="Image" width="500px" />
 </p>
 
 ### Uso Interativo do Python
@@ -1238,7 +1430,11 @@ print(L[:4])  # [3, 'abacate', 9.7, [5, 6, 3]]
 ## TUPLAS
 
 Tupla, assim como a Lista é um conjunto sequencial de valores, onde cada valor é identificado através de um índice. A sintaxe básica é:
-**Nome_tupla = (valor1, valor2, ..., valorN) ou “valor1”, “valor2”, ..., “valorN”**
+
+
+```python
+Nome_tupla = (valor1, valor2, ..., valorN) ou “valor1”, “valor2”, ..., “valorN”
+```
 
 Definidas por parentesis ((int/float/str/object)), uma tuple pode conter diversos tipos de dados aninhados numa mesma tuple, como numero (int ou float), str e/ou outros tipos, por exemplo, object ou atá mesmo outra tuple. Em geral, usa-se este tipo de estrutura de dados para armazenar informações de entrada (input do banco de dados), para a aplicação que é desenvolvida.
 Observação:
@@ -1287,9 +1483,12 @@ print(b)  # [2, 3, 4, 5]
 Definida por chaves ({}), um dicionário é uma estrutura de dados bidimensional mutável, ou seja, que pode ser alterada e conter diversos tipos de dados aninhados na mesma dict, porém, um dado inserido está relacionado com uma chave de acesso (key) e apenas este dado possui esta atribuição. Isto é, uma dict é um tipo de set que pode ter valores repetidos, entretanto, possui uma palavra-chave única atribuida a cada dado.
 A sintaxe básica é:
 
+```csharp
 Nome_dicionario = { chave1 : chave2 : chave3 : chaveN :v alorN]:
+```
 
-Observação:
+
+**Observação**:
 1. NÂO se pode ter um ou mais elementos com a mesma key (palavra-chave);
 2. O primeiro item inserido na dict, será sempre o primeiro item da diet;
 3. Um item adicionado a uma dict, e sempre inserido no final da diet.
@@ -3087,16 +3286,16 @@ tatu.lista_contas()
 
 A orientação a objetos permite modificar nossas classes, adicionando ou modificando atributos e métodos, tendo como base outra classe. Para atrair novos clientes, o Banco Tatu começou a oferecer contas especiais aos clientes. Uma conta especial permite que possamos sacar mais dinheiro que atualmente disponível no saldo da conta, até um determinado limite. Vamos criar a classe ContaEspecial herdando o comportamento da classe Conta. Digite o programa a seguir no mesmo arquivo em que a classe Conta foi definida (contas.py):
 
-    ```python
-    class ContaEspecial(Conta):
-        def__init__(self, clientes, numero, saldo=0, limite=0):
-            Conta.__init__(self, clientes, nunero, saldo)
-            self.limite = limite
-        def saque(self, valor):
-            if self.saldo + self.limite >= valor:
-                self.saldo -= valor
-                self.operacoes.append(["SAQUE", valor])
-    ```
+```python
+class ContaEspecial(Conta):
+    def__init__(self, clientes, numero, saldo=0, limite=0):
+        Conta.__init__(self, clientes, nunero, saldo)
+        self.limite = limite
+    def saque(self, valor):
+        if self.saldo + self.limite >= valor:
+            self.saldo -= valor
+            self.operacoes.append(["SAQUE", valor])
+```
 
 - class subclasse(superclasse):
 Definimos a classe ContaEspecial, mas observe que escrevemos Conta entre parênteses. Esse é o formato de declaração de classe usando herança, ou seja, e assim que declaramos a herança de uma classe em Python. A partir daqui, ContaEspecial é uma subclasse de Conta, herdando todos os métodos e atributos da classe Conta. Também dizemos que Conta e a superclasse de ContaEspecial.
@@ -3425,22 +3624,19 @@ Agora veja o que acontece quando tentamos utilizar os operadores >= (maior ou ig
 
 ```python
 
-"""
 print(A >= Nome("Nilo"))
 Traceback (most recent call last):
   File "teste_nome.py", line 29, in <module>
     print(A >= Nome("Nilo"))
 TypeError: '>=' not supported between instances of 'Nome' and 'Nome'
-"""
-"""
+
+
 print(A <= Nome("Nilo"))
 Traceback (most recent call last):
   File "teste_nome.py", line 37, in <module>
     print(A <= Nome("Nilo"))
 TypeError: '<=' not supported between instances of 'Nome' and 'Nome'
-"""
 ```
-
 
 Isso acontece porque os operadores >= e <= chamam os métodos ```__ge__``` {greater than or equal, maior ou igual) e ```__le__``` (less than or equal, menor ou igual), respectivamente, e ambos não foram implementados.
 
