@@ -1,4 +1,12 @@
 
+<html>
+  <head>
+   <meta name="google-site-verification" content="kg50GjPxJzeZrWjVtYbRE5i-xpi7UvYsf753E8JJR4A" />
+  </head>
+
+
+
+
 - [GitHub Page](https://shyoutarou.github.io/Phyton-Estudo/)
 
 - [O que é o Python?](#o-que-é-o-python)
@@ -6025,3 +6033,5 @@ if __name__ == "__main__":
 
 Na classe AppAgenda, modificamos as opções do menu e os tipos usados nas pesquisas. Veja que, com a utilização da classe DBAgenda, conseguimos isolar as operações de banco de dados da classe AppAgenda. Como não temos operações de leitura e gravação, o nome do banco de dados deve ser passado obrigatoriamente no código comando, no caso definiu-se o nome para agenda_sqlite.db.
 
+
+</html>
