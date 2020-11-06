@@ -1,6 +1,4 @@
 
-   <meta name="google-site-verification" content="kg50GjPxJzeZrWjVtYbRE5i-xpi7UvYsf753E8JJR4A" />
-
 - [GitHub Page](https://shyoutarou.github.io/Phyton-Estudo/)
 
 - [O que é o Python?](#o-que-é-o-python)
